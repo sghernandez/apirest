@@ -1,0 +1,39 @@
+http://localhost/apirest/login - POST / retorna el token a usar.
+
+{
+"usuario" :"usuario1@gmail.com",
+"password": "123456"
+}
+
+
+http://localhost/apirest/pacientes - GET / devuelve todos los pacientes
+http://localhost/apirest/pacientes?id=1 - GET / devuelve el paciente con id: 1
+
+
+http://localhost/apirest/pacientes - POST
+
+{
+"documento" :"11245733",
+"nombre": "Karol Mena",
+"token" : "b89689e2535f5d76c20a1de73a6f8d95"
+}
+
+
+http://localhost/apirest/pacientes - PUT
+
+{
+"id": "11",
+"documento" :"987654323",
+"nombre": "Fidelino Camacho",
+"token" : "bf677f0379f82ca2b04a90d61e6c5033"
+}
+
+
+
+http://localhost/apirest/pacientes - DELETE
+
+{
+"id": 8,
+"token" : "0b3e79d2f0be55d89d6ed387a974ab54"
+}
+
